@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">JavaScript</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 text-center mt-4">
+            <h2>Welcome to my training site</h2>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-12 d-flex justify-content-center mb-5">
+
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="all"><a href="#about-course">About this Course</a></button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="1"><a href="#theory">Little theory</a></button>
+            <button type="button" class="btn btn-outline-black waves-effect filter" data-rel="2"><a href="#practice">Practice</a></button>
+
+        </div>
+    </div>
+
+    <div class="gallery row" id="gallery">
+
+        <div class="mb-3 pics animation all 1 col-md-4">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg" alt="Card image cap">
+        </div>
+
+        <div class="mb-3 pics animation all 1 col-md-4">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg" alt="Card image cap">
+        </div>
+
+        <div class="mb-3 pics animation all 1 col-md-4">
+            <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg" alt="Card image cap">
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <a id="about-course"></a>
+                    <h3 class="headers">About this Course</h3>
+
+                    <p><strong>What will you build?</strong></p>
+                    <p>In the introductory JavaScript courses, you will create JavaScript programs that apply your new
+                        programming
+                        skills to model real-world problems. A couple of the projects include: writing the JavaScript logic
+                        for a rock paper scissors game, and authoring a script that returns a random response from a magic
+                        eight ball.</p>
+
+                    <p><strong>Outcomes</strong></p>
+                    <p>You will learn introductory level object oriented programming using ES6 JavaScript.
+                        This course sequence covers data types and structures, functions, and object-oriented programming
+                        with classical inheritance.
+                        Though you will learn these concepts in the context of ES6 syntax, are required knowledge for
+                        understanding object oriented programming.
+
+                        Though it is not a prerequisite for most of the content in this sequence, an introductory level
+                        understanding
+                        of HTML and CSS will make the requests course a more meaningful learning experience.</p>
+
+                    <p><strong>Why learn JavaScript?</strong></p>
+                    <p>JavaScript is the language of the web. You can use it to add dynamic behavior, store information,
+                        and handle requests and responses on a website. The concepts covered in these courses lay the
+                        foundation for adding this behavior.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <a id="theory"></a>
+                    <h3 class="headers">Little theory</h3>
+
+                    <p><strong>What is JavaScript?</strong></p>
+                    <p>JavaScript is a programming language used to make web pages interactive.
+                        It is what gives a page life—the interactive elements and animation that engage a user.
+                        If you've ever used a search box on a home page, checked a live baseball score on a news site,
+                        or watched a video, it has likely been produced by JavaScript.</p>
+
+                    <p><strong>Using and Writing JavaScript</strong></p>
+                    <p>What makes JavaScript great is that it's not necessary to know how to write it in order to use it in
+                        your web code.
+                        You can find plenty of prewritten JavaScripts for free online. To use such scripts,
+                        all you need to know is how to paste the supplied code into the right places on your web page.
+
+                        Despite the easy access to prewritten scripts, many coders prefer knowing how to do it themselves.
+                        Because it is an interpreted language, no special program is required to create usable code.
+                        A plain text editor like Notepad for Windows is all you need to write JavaScript.
+                        That said, Markdown Editor might make the process easier, particularly as the lines of code add
+                        up.</p>
+
+                    <p><strong>HTML Versus JavaScript</strong></p>
+                    <p>HTML and JavaScript are complementary languages. HTML is a markup language designed for defining
+                        static webpage content.
+                        It is what gives a webpage its basic structure. JavaScript is a programming language designed
+                        for performing dynamic tasks within that page, like animation or a search box.
+
+                        JavaScript is designed to run within the HTML structure of a website and is often used multiple
+                        times.
+                        If you're writing code, your JavaScript will be more easily accessible if placed them in separate
+                        files
+                        (using a .JS extension helps identify them). You then link the JavaScript to your HTML by inserting
+                        a tag.
+                        That same script can then be added to several pages just by adding the appropriate tag into each of
+                        the pages to set up the link.</p>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <a id="practice"></a><h3 class="headers">Practice</h3>
+                    <p>Great job completing Introduction To <a href="https://www.codecademy.com/learn/introduction-to-javascript">JavaScript.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row mt-4 additions">
+                <div class="col-md-12">
+                    <p id="header-ide" class="text-ide"><strong>DON'T COMPROMISE ON DEVELOPMENT EXPERIENCE</strong></p>
+                    <p class="text-ide"><strong>WebStorm</strong> is:</p>
+                    <ul>
+
+                        <li><strong>The smartest editor</strong></li>
+                        Use the full power of the modern JavaScript ecosystem – WebStorm’s got you covered!
+                        Enjoy the intelligent code completion, on-the-fly error detection, powerful navigation
+                        and refactoring for JavaScript, TypeScript, stylesheet languages, and the most popular frameworks.
+                        <li><strong>Debugger</strong></li>
+                        Debug your client-side and Node.js apps with ease in the IDE – put breakpoints right in the source
+                        code,
+                        explore the call stack and variables, set watches, and use the interactive console.
+                        <li><strong>Seamless tool integration</strong></li>
+                        Take advantage of linters, build tools, test runners, REST client, and more tools, all deeply
+                        integrated with the IDE. But any time you need Terminal, it's also available as an IDE tool window.
+                        <li><strong>Unit testing</strong></li>
+                        Run and debug tests with Karma, Mocha, Protractor, and Jest in WebStorm. Immediately see test
+                        statuses right in the editor, or in a handy treeview from which you can quickly jump to the test.
+                        <li><strong>Integration with VCS</strong></li>
+                        Use a simple unified UI to work with Git, GitHub, Mercurial, and other VCS. Commit files,
+                        review changes and resolve conflicts with a visual diff/merge tool right in the IDE.
+
+                    </ul>
+                    <img class="img-ide" src="https://www.developpez.com/public/images/news/webstorm.PNG">
+
+                    <p class="text-ide"><strong>What’s New in WebStorm 2018.1</strong></p>
+                    <ul>
+
+                        <li><strong>Create new Vue projects</strong></li>
+                        You can now create a Vue project right from the IDE’s Welcome screen using Vue CLI –
+                        the new project will be fully configured with all the tools you need.
+
+                        <li><strong>Reformat with Prettier</strong></li>
+                        With the new Reformat with Prettier action, you can now format the selected code,
+                        a file or a whole directory using this popular formatting tool.
+
+                        <li><strong>Debug React Native apps</strong></li>
+                        With the updated React Native configuration, you can now debug apps that use Expo,
+                        as well as those already built and launched on a device.
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
